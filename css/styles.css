@@ -7,27 +7,32 @@
 body {
     font-family: 'Holtwood One SC', serif;
     background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTBeNvV9Z47U6p8enHwK8cFo95-tkZ5Xgrf9w&usqp=CAU);
-
+    min-width: 30rem;
+    background-position: top;
 }
 
 header {
     background-image:  url(https://www.deco.fr/sites/default/files/styles/width_880/public/2020-01/shutterstock_12048355.jpg?itok=2Nky-iuU) ;
     font-family: sans-serif;
+    
 
 }
 
 .main-header__title {
     font-family: 'Holtwood One SC', serif;
     font-size: 5em;
-    size: 5em;
+    size: 7em;
     text-align: center;
-    padding-top: 2rem;
+    padding-top: 1rem;
+    
 }
 
 .main-header__title-second {
     text-align: center;
     font-family: 'Holtwood One SC', serif;
-    padding-bottom: 1rem;
+    padding: 0.8rem;
+    text-decoration-line: underline;
+    margin
 }
 
 .menu {
@@ -35,4 +40,29 @@ header {
     font-family: 'Holtwood One SC', serif;
     padding: 1rem;
     
+    
+}
+
+li.menu {
+    margin: 2rem;
+    display: inline-flex;
+    padding: 1rem;
+    background-color: #8B0000;
+   border: 0.1rem solid black;
+   border-radius: 1rem;
+    margin: 0.25rem 0.5em;
+    background-image: url(https://www.deco.fr/sites/default/files/styles/width_880/public/2020-01/shutterstock_375588814.jpg?itok=K8FhSyuR);
+
+}
+
+strong {
+    font-size: 1rem;
+
+}
+
+.main-title {
+    border: black 1px solid;
+    border-radius: 2rem;
+    background-position: bottom 1rem;
+    background-image: url(https://www.deco.fr/sites/default/files/styles/width_880/public/2020-01/shutterstock_375588814.jpg?itok=K8FhSyuR);
 }
