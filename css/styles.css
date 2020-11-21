@@ -1,0 +1,38 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Holtwood+One+SC&display=swap');
+
+
+
+
+body {
+    font-family: 'Holtwood One SC', serif;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTBeNvV9Z47U6p8enHwK8cFo95-tkZ5Xgrf9w&usqp=CAU);
+
+}
+
+header {
+    background-image:  url(https://www.deco.fr/sites/default/files/styles/width_880/public/2020-01/shutterstock_12048355.jpg?itok=2Nky-iuU) ;
+    font-family: sans-serif;
+
+}
+
+.main-header__title {
+    font-family: 'Holtwood One SC', serif;
+    font-size: 5em;
+    size: 5em;
+    text-align: center;
+    padding-top: 2rem;
+}
+
+.main-header__title-second {
+    text-align: center;
+    font-family: 'Holtwood One SC', serif;
+    padding-bottom: 1rem;
+}
+
+.menu {
+    text-align: center;
+    font-family: 'Holtwood One SC', serif;
+    padding: 1rem;
+    
+}
