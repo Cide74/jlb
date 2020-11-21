@@ -6,51 +6,60 @@
 
 body {
     font-family: 'Holtwood One SC', serif;
-    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTBeNvV9Z47U6p8enHwK8cFo95-tkZ5Xgrf9w&usqp=CAU);
+
+    background-image: url(https://www.aufildescouleurs.com/58270-large_default/chene.jpg);
+
     min-width: 30rem;
     background-position: top;
 }
 
 header {
-    background-image:  url(https://www.deco.fr/sites/default/files/styles/width_880/public/2020-01/shutterstock_12048355.jpg?itok=2Nky-iuU) ;
-    font-family: sans-serif;
     
-
+    font-family: sans-serif;
 }
 
+.main-header{
+    background-image:  url(https://www.deco.fr/sites/default/files/styles/width_880/public/2020-01/shutterstock_12048355.jpg?itok=2Nky-iuU) ;
+    
+    padding:1rem ;
+
+
+
+
+}
 .main-header__title {
     font-family: 'Holtwood One SC', serif;
     font-size: 5em;
     size: 7em;
     text-align: center;
-    padding-top: 1rem;
+    padding-top: 0.8rem;
     
 }
 
 .main-header__title-second {
     text-align: center;
     font-family: 'Holtwood One SC', serif;
-    padding: 0.8rem;
+    padding-bottom: 0.4rem;
     text-decoration-line: underline;
-    margin
+    
 }
 
 .menu {
     text-align: center;
     font-family: 'Holtwood One SC', serif;
-    padding: 1rem;
+    padding: rem;
     
     
 }
 
 li.menu {
-    margin: 2rem;
+    margin: rem;
     display: inline-flex;
     padding: 1rem;
     background-color: #8B0000;
-   border: 0.1rem solid black;
-   border-radius: 1rem;
-    margin: 0.25rem 0.5em;
+    border: 0.1rem solid black;
+    border-radius: 1rem;
+    margin-bottom: 0.2rem ;
     background-image: url(https://www.deco.fr/sites/default/files/styles/width_880/public/2020-01/shutterstock_375588814.jpg?itok=K8FhSyuR);
 
 }
@@ -65,4 +74,21 @@ strong {
     border-radius: 2rem;
     background-position: bottom 1rem;
     background-image: url(https://www.deco.fr/sites/default/files/styles/width_880/public/2020-01/shutterstock_375588814.jpg?itok=K8FhSyuR);
+}
+
+.main-footer {
+    background-image:  url(https://www.deco.fr/sites/default/files/styles/width_880/public/2020-01/shutterstock_12048355.jpg?itok=2Nky-iuU) ;
+    
+}
+
+.main-footer__content {
+    text-align: center;
+    padding:1rem ;
+    border: black solid 1px;
+    border-radius: 2rem;
+    border: black 1px solid;
+    border-radius: 2rem;
+    background-position: bottom 1rem;
+    background-image: url(https://www.deco.fr/sites/default/files/styles/width_880/public/2020-01/shutterstock_375588814.jpg?itok=K8FhSyuR);
+
 }
