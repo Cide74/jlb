@@ -1,165 +1,89 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Holtwood+One+SC&display=swap');
 
+
 body {
-    font-family: 'Holtwood One SC', serif;
-    background-image: url(https://www.aufildescouleurs.com/58270-large_default/chene.jpg);
-
-    background-position: top;
-    text-align: center; 
-}
-
-header {
-    font-family: sans-serif;
-   
+    font-family: Holtwood One SC , serif;     
+    background-color:gray;
 }
 
 .main-header{
-    background-image:  url(https://www.deco.fr/sites/default/files/styles/width_880/public/2020-01/shutterstock_12048355.jpg?itok=2Nky-iuU);
-    
-}
-
-.main-title {
-    border: black 1px solid;
-    border-radius: 2em;  
-    background-image: url(https://www.deco.fr/sites/default/files/styles/width_880/public/2020-01/shutterstock_375588814.jpg?itok=K8FhSyuR);
-}
-
-.main-header {
-    
-}
-
-.main-header__title {
-    font-family: 'Holtwood One SC', serif;
-    font-size: 5em;
-    size: 1em;
     text-align: center;
-      
-}
 
-.main-header__title-second {
-    text-align: center;
-    font-family: 'Holtwood One SC', serif;
-    text-decoration-line: underline;
+    background-attachment: fixed;
+    background-color: #eee;
     
-}
-
-.menu {
-    text-align: center;
-    font-family: 'Holtwood One SC', serif;
-    padding: 0em; 
-}
-
-li.menu {
-    margin: rem;
-    display: inline-flex;
-    padding: 0.8em;
-    background-color: #8B0000;
-    border: 0.1em solid black;
-    border-radius: 1.5rem;
-    margin-bottom: 1em ;
-    background-image: url(https://www.deco.fr/sites/default/files/styles/width_880/public/2020-01/shutterstock_375588814.jpg?itok=K8FhSyuR);
-}
-
-
-
-.main-footer {
-    background-image:  url(https://www.deco.fr/sites/default/files/styles/width_880/public/2020-01/shutterstock_12048355.jpg?itok=2Nky-iuU) ;
-    text-align: center;  
-}
-
-.main-footer__content {
-    text-align: center;
-    padding:1em ;
-    border: black solid 2px;
-    border-radius: 1em;
-    background-position: bottom 1rem;
-    background-image: url(https://www.deco.fr/sites/default/files/styles/width_880/public/2020-01/shutterstock_375588814.jpg?itok=K8FhSyuR);
-    display:inline-block  ;
-    margin: 1em auto ;
-   
-    
-
-}
-
-main {
-    min-height: 50em;
-    
-}
-
-
-
-.picture {
-    /*border: 1px solid black;*/
-    border-radius: 2em;
-    width: calc((100%/3) - (2*1rem));
-    padding: 0.3em ;
-    margin: 0.4em;
-    display: inline-block;
-    align-content: flex-start;
-    min-width: 200px;
-    max-width: 500px;
-    border: 2px solid black;
-
- 
-    
-
-   
-}
-
-.picture-contaire {
-
-    display: flex;
-    display: inline-block;
-    flex-direction: row;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: space-around;
-    width: 70%;
-    height: 70%;
-    flex-flow: column wrap;
-    justify-content:center ;
-    padding: 1em auto;
-    background-image: url(https://www.deco.fr/sites/default/files/styles/width_880/public/2020-01/shutterstock_375588814.jpg?itok=K8FhSyuR);
-
-    border: 9px solid black;
-    border-radius: 2em;
-    width: calc((100%/3) - (2*2em));
-    margin: 1em;
-
-    box-sizing: border-box;
-    position: relative;
-
-    align-items: center;
-    vertical-align: baseline;
-    background-color: green;
-}
-
-
-article.picture img {  /* gère l'image dans la class article picture */
-    width: 100%;
-    /*box-shadow: 12px 12px 2px 1px rgba(255, 94, 0, 0.39);*/
-    border-radius: 2rem 2rem 0rem 0rem;
-    border: black 1px solid;
-}
-
-.tag-date {
-    background-image: url(https://www.deco.fr/sites/default/files/styles/width_880/public/2020-01/shutterstock_375588814.jpg?itok=K8FhSyuR);
-    color: rgb(0, 0, 0);
     display: block;
-    padding: 0.2em;
-    margin: 0.;
-    text-align: center;
-    border : solide 1px black;
-    border-radius: 0rem 0rem 2rem 2rem;
-}
-
-h3, h4 {
-    font-size: 1em;
-    display: inline;
-    text-align : justify;
+    position: relative;
+    border: black 2px solid;
+    border-radius: 2em;
     
+}
+
+.main-header__title   {
+    background-attachment: fixed;
+    background-color: gray;
+    display: block;
+    position: relative;
   
+   
+
+   
+}
+
+.main-header__title-first {
+   font-size:4em ;
+   background-color: gray;
+   margin: 0.1em;
+   
+   
+}
+   
+.main-header__title-second {
+    background-color: gray;
+    margin 
 
 }
 
+.menu{
+    display: inline;
+    border: black 2px solid;
+    border-radius: 2em;
+    margin: 0em;
+    padding:0.5em;
+    font-size: 0.5rem;
+    font-weight: bold;
+    color :white;
+   
+    text-transform: uppercase;
+    width: calc( 100% - 2em );
+    box-sizing: content-box;
+   
+    background-position: center -40px;
+
+
+
+}    
+
+
+
+.block-left__title {
+    font-size: 2em;
+    font-weight: bold;
+    color :white;
+    margin: 2em 1.2em;
+    text-transform: uppercase;
+    width: calc( 100% - 2em );
+    box-sizing: content-box;
+    display: flow-root; 
+    background-position: center -40px;
+}
+
+.bardage {
+    
+    min-height: 200px ;
+    background-color: rgba(255, 166, 0, 0.63);
+    border: black 1px solid;
+    margin: 1em;
+   
+    
+}

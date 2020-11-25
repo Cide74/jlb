@@ -1,2 +1,4 @@
 # jlb
-site internet pour un charpentier
+site internet pour un charpentier en 
+
+*************** cours de construction ***************
