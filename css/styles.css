@@ -4,27 +4,30 @@
 body {
     font-family: Holtwood One SC , serif;     
     background-color:gray;
+    background-image: url(https://www.deco.fr/sites/default/files/styles/width_880/public/2020-01/shutterstock_375588814.jpg?itok=K8FhSyuR);
 }
 
 .main-header{
     text-align: center;
-
+font-im
     background-attachment: fixed;
     background-color: #eee;
+    background-image: url(https://www.deco.fr/sites/default/files/styles/width_880/public/2020-01/shutterstock_524921872.jpg?itok=ZifqoN6W);
     
-    display: block;
+    display: inline;
     position: relative;
-    border: black 2px solid;
+    /*border: black 2px solid;*/
     border-radius: 2em;
     
 }
 
 .main-header__title   {
     background-attachment: fixed;
-    background-color: gray;
+    /*background-color: gray;*/
     display: block;
     position: relative;
-  
+    background-image: url(https://www.deco.fr/sites/default/files/styles/width_880/public/2020-01/shutterstock_218789311.jpg?itok=W_AdOnOb);
+    border: black 2px solid;
    
 
    
@@ -32,25 +35,24 @@ body {
 
 .main-header__title-first {
    font-size:4em ;
-   background-color: gray;
-   margin: 0.1em;
+   /*background-image: url(https://www.deco.fr/sites/default/files/styles/width_880/public/2020-01/shutterstock_402596881.jpg?itok=TBT0uHDV);*/
    
    
 }
    
 .main-header__title-second {
-    background-color: gray;
-    margin 
+    
+
 
 }
 
-.menu{
+ol .menu{
     display: inline;
     border: black 2px solid;
-    border-radius: 2em;
+    border-radius: 1.5em;
     margin: 0em;
-    padding:0.5em;
-    font-size: 0.5rem;
+    padding:1em;
+    font-size: 1rem;
     font-weight: bold;
     color :white;
    
@@ -59,6 +61,7 @@ body {
     box-sizing: content-box;
    
     background-position: center -40px;
+    background-image: url(https://www.deco.fr/sites/default/files/styles/width_880/public/2020-01/shutterstock_218789311.jpg?itok=W_AdOnOb);
 
 
 
@@ -82,6 +85,7 @@ body {
     
     min-height: 200px ;
     background-color: rgba(255, 166, 0, 0.63);
+    background-image: url();
     border: black 1px solid;
     margin: 1em;
    
